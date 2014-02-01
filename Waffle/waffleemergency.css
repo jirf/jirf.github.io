@@ -1,0 +1,118 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #9f9f9f;
+}
+
+#warning-bar {
+    height: 30px;
+    position: absolute;
+    background-color: #f00;
+    z-index: 10;
+}
+
+#control-panel {
+    width: 667px;
+    height: 388px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding-top: 30px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #919191;
+    box-shadow: 0 0 2px;
+}
+
+#waffle-panel {
+    width: 311px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 178px;
+    float: left;
+}
+
+#waffle-label {
+    width: 100%;
+    height: 20px;
+    z-index: 10;
+    font-size: 19px;
+    margin-top: 30px;
+}
+
+#waffle-button {
+    width: 301px;
+    height: 301px;
+    box-sizing: border-box;
+    margin-left: 6px;
+    margin-top: 10px;
+    border-radius: 100%;
+    background-color: yellow;
+}
+
+#waffle-button:hover {
+    cursor: pointer;
+}
+
+#topping-panel, #syrup-panel {
+    width: 178px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    box-sizing: border-box;
+    padding-top: 30px;
+    float: left;
+}
+
+#topping-panel {
+    left: 0;
+}
+
+#waffle-button,
+#topping-panel img,
+#syrup-panel img {
+    border: 2px solid #2d2d2d;
+    border-radius: 100%;
+    box-shadow: 0 0 1px;
+}
+
+#syrup-panel {
+    left: 489px;
+}
+
+#syrup-panel img {
+    border-radius: 2px;
+    box-shadow: 0 0 1px;
+}
+
+#popup-text {
+    width: 600px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    font: georgia;
+    font-size: 19px;
+    z-index: 100;
+}
+
+.warning-animation {
+    width: 100%;
+    -moz-animation-duration: 15s;
+    -webkit-animation-duration: 15s;
+    -moz-animation-name: loadingbar;
+    -webkit-animation-name: loadingbar;
+}
+
+@-webkit-keyframes loadingbar {
+    from {
+	width: 0;
+    }
+    to {
+	width: 100%;
+    }
+}

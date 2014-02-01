@@ -1,0 +1,17 @@
+Waffle Emergency
+
+Simple Game.
+
+Red Bar across the top of the screen filling up. There is text in the bar describing how close to a waffle emergency it is.
+
+In the center of the screen there will be a giant waffle button. Clicking it resets the waffle emergency bar. You are releasing the strategic waffle reserves.
+
+To decorate the rest of the screen there will be other controls on a control panel with waffle related things like maple syrup levels. Fruit adders, etc. Might change styles or prompt humorous things but can just be window dressing if need be.
+
+---
+
+Joke ideas
+
+People cry out "let go of your waffles"
+Waffle czar decre's "Let them eat waffles". People rejoice.
+Popular television host jokes "Let them eat pancakes." Show is quickly canceled.
